@@ -349,6 +349,19 @@
         },
     };
 
+    var handOptions = ['Right-handed', 'Left-handed'];
+    var handedness = {
+        type: 'survey-multi-choice',
+        questions: [{ prompt: "Are you right or left handed?", options: handOptions, required: true }],
+        button_label: "continue",
+        on_finish: function (data) {
+            jsPsych.data.addProperties({
+                handedness: JSON.parse(data.responses).Q0,
+            });
+            console.log(data);
+        },
+    };
+
     var Prolific_reported = {
         timeline: [{
             type: 'survey-text',
@@ -483,6 +496,7 @@
     timeline.push(gender);
     timeline.push(age);
     timeline.push(language);
+    timeline.push(handedness);
     timeline.push(Prolific_reported);
     timeline.push(likingGrp);
     timeline.push(IdentificationGrp);

@@ -57,7 +57,7 @@ if (!is_compatible) {
 // firebase initialization ---------------------------------------------------------------
 var firebase_config = {
   apiKey: "AIzaSyBwDr8n-RNCbBOk1lKIxw7AFgslXGcnQzM",
-  databaseURL: "https://aatjpsp-d3f27.firebaseio.com/"
+  databaseURL: "https://aatjpsp2.firebaseio.com/"
 };
 
 firebase.initializeApp(firebase_config);

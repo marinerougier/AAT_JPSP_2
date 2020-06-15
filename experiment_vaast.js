@@ -497,7 +497,7 @@ var vaast_instructions_3_vaast = {
     "<p class='instructions'>As a function of the background color (blue or yellow) of the face, your task is to move forward or backward by pressing the the MOVE FORWARD key (namely, the <b>E key</b>) "+
     "or the MOVE BACKWARD key (namely, the <b>C key</b>) as fast as possible. After the key press, the face will disappear and you will have to " +
     "press again the START key (D key). " +
-    "<p class='instructions'>Please <u>use only the index finger</u> of your favorite hand for all these actions. </p>" +
+    "<p class='instructions'><b>Please <u>use only the index finger</u> of your favorite hand for all these actions. </b></p>" +
     "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
@@ -574,7 +574,7 @@ var vaast_instructions_3_cont = {
     "<p class='instructions'>Then, you will see a fixation cross (+) at the center of the screen, followed by a face. </p>" +
     "<p class='instructions'>As a function of the background color (blue or yellow) of the face, your task is to <b>press the S key or the F key</b> as fast as you can. "+
     "After the key press, the face will disappear and you will have to press again the START key (D key). " +
-    "<p class='instructions'>Please <u>use only the index finger</u> of your favorite hand for all these actions. </p>" +
+    "<p class='instructions'><b>Please <u>use only the index finger</u> of your favorite hand for all these actions. </b></p>" +
     "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",

@@ -127,7 +127,7 @@ var training_cond = jsPsych.randomization.sampleWithoutReplacement(["AAT","cont"
 var AAT_cond = jsPsych.randomization.sampleWithoutReplacement(["approach_blue", "approach_yellow"], 1)[0];
 
 // for the control condition, randomization of the E vs. I key (for the blue vs. yellow group)
-var control_cond = jsPsych.randomization.sampleWithoutReplacement(["blue_e", "blue_i"], 1)[0];
+var control_cond = jsPsych.randomization.sampleWithoutReplacement(["blue_s", "blue_f"], 1)[0];
 
 // group associated with the yellow or blue color
 var ColorGroup   = jsPsych.randomization.sampleWithoutReplacement(["G1Y", "G1B"], 1)[0];
@@ -200,12 +200,12 @@ var group_to_avoid    = undefined;
 
 switch (training_cond) {
   case "cont":
-    {if (control_cond == "blue_e"){
+    {if (control_cond == "blue_s"){
     movement_blue = "approach";
     movement_yellow = "avoidance";
     group_to_approach = "blue";
     group_to_avoid    = "yellow";
-    } else if (control_cond == "blue_i"){
+    } else if (control_cond == "blue_f"){
     movement_blue = "avoidance";
     movement_yellow = "approach";
     group_to_approach = "yellow";
